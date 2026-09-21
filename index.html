@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Día de las Flores Amarillas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #fefae0;
+            background-image: radial-gradient(#faedcd 1px, transparent 1px);
+            background-size: 20px 20px;
+            font-family: 'Poppins', sans-serif;
+            color: #582f0e;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .container {
+            max-width: 700px;
+            background: #fff;
+            padding: 40px 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(212, 163, 89, 0.2);
+            border: 2px solid #dda15e;
+            position: relative;
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            color: #bc6c25;
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+        .date {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            color: #dda15e;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .intro-text {
+            font-size: 1.05rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 35px;
+            flex-wrap: wrap;
+        }
+        .polaroid {
+            background: #fff;
+            padding: 10px 10px 25px 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            border-radius: 5px;
+            transform: rotate(-2deg);
+            transition: transform 0.3s ease;
+            width: 150px;
+        }
+        .polaroid:nth-child(even) {
+            transform: rotate(3deg);
+        }
+        .polaroid:hover {
+            transform: scale(1.05) rotate(0deg);
+            z-index: 10;
+        }
+        .polaroid img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 3px;
+        }
+        .poem {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.15rem;
+            font-style: italic;
+            line-height: 1.8;
+            color: #6b4226;
+            background: #fefae0;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            border-left: 4px solid #bc6c25;
+        }
+        .signature {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.8rem;
+            color: #bc6c25;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="date">21 de Septiembre</div>
+        <h1>¡Feliz Día de las Flores Amarillas, Mi Amor! 🌻</h1>
+        
+        <p class="intro-text">
+            Hoy el día se ilumina de amarillo, y quería que tú fueras la más especial. 
+            Tu sonrisa es mi sol cada día, por eso hoy te regalo este pequeño jardín digital lleno de amor y luz. 
+            ¡Que este día sea tan brillante y hermoso como tú!
+        </p>
+
+        <div class="gallery">
+            <div class="polaroid">
+                <img src="foto1.jpg" alt="Foto de ella">
+            </div>
+            <div class="polaroid">
+                <img src="foto2.jpg" alt="Foto de ella">
+            </div>
+            <div class="polaroid">
+                <img src="foto3.jpg" alt="Foto de ella">
+            </div>
+        </div>
+
+        <div class="poem">
+            Tus ojos son el faro que ilumina mi camino,<br>
+            la más dulce melodía que alegra mi destino.<br>
+            En este día de amarillo resplandor,<br>
+            te entrego mi alma y todo mi amor.<br>
+            Que florezca la alegría en tu corazón<br>
+            hoy y siempre, con esta canción.<br>
+            ¡Feliz día, mi vida! 🌻
+        </div>
+
+        <div class="signature">
+            Con amor, S.W.
+        </div>
+    </div>
+
+</body>
+</html>
